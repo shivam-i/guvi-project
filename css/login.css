@@ -1,0 +1,53 @@
+*{
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+    
+}
+
+body {
+    margin: 0px;
+    padding: 0px;
+
+    background-color: black;
+    height: 100%;
+    overflow: hidden;
+}
+
+.error-msg-user {
+    display: none;
+}
+
+.error-msg-pass {
+    display: none;
+}
+
+.login-form {
+    background-color: white;
+    width: 30%;
+    height: auto;
+    margin: 7% auto;
+    padding: 25px 10px;
+    border-radius: 36px;
+}
+
+.submit-btn {
+    /* padding: 5px 15px; */
+    border-radius: 33px;
+}
+
+/* Responsive CSS */
+
+@media screen and (max-width:1200px) {
+    .login-form {
+        width: 40%;
+        height: auto;
+        margin: 20% auto;
+    }
+}
+@media screen and (max-width:600px) {
+    .login-form {
+        width: 90%;
+        height: auto;
+        margin: 15% auto;
+    }
+}
